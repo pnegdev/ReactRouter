@@ -18,7 +18,7 @@ function App() {
     
   return (
     <div className="App bg-light mb-5">
-      <Menu //Barre de navigation
+      <Menu
         onFilter={({ title, rate }) => {
           setTitle(title);
           setRate(rate);
